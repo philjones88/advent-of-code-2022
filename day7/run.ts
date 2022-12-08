@@ -1,5 +1,4 @@
 import { readFileSync } from 'fs';
-import { t } from 'vitest/dist/index-9f5bc072';
 import { day7part1 } from './day7';
 
 const rawFile = readFileSync('day7/input.txt', 'utf-8');
